@@ -11,9 +11,9 @@ export default function Home() {
           className="min-h-screen flex flex-col items-center px-8 py-8 sm:px-20 sm:py-16 font-[family-name:var(--font-geist-sans)]">
 
         {/* NAVBAR */}
-        <nav className="sticky top-0 w-screen flex justify-between items-center py-4 px-4 mb-12 bg-navbar">
+        <nav className="sticky top-0 w-screen flex justify-between items-center py-6 px-4 mb-12 bg-blue-950">
           {/* Left Side: Logo */}
-          <Link href="#home">
+          <Link href={"#home"}>
             <h1 className="text-xl font-bold">Ethan Gibbs</h1>
           </Link>
 
@@ -51,7 +51,7 @@ export default function Home() {
               This is my portfolio—check out some of my work below.
             </p>
             <Link
-                href="#contact"
+                href={"#contact"}
                 className="inline-block mt-2 rounded-full border border-transparent bg-foreground text-background py-2 px-6 text-sm font-bold hover:bg-[#383838] dark:hover:bg-[#ccc]"
             >
               Get in Touch
