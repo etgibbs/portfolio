@@ -19,9 +19,9 @@ export function JobBanner({ title, company, duration, description, link }: JobBa
         >
             <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 mb-4 shadow-md
             hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-white inline items-center space-x-4">
+                <h3 className="text-xl font-bold text-white inline-flex items-center space-x-4">
                     <span>{title}</span>
-                    <FiExternalLink className="text-white text-xl inline items-center" />
+                    <FiExternalLink className="text-white text-xl inline-flex items-center" />
 
                 </h3>
                 <p className="text-sm text-gray-400 font py-1">
