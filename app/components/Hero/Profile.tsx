@@ -8,8 +8,8 @@ export default function Profile() {
             <Image
                 src="/headshot.png"
                 alt="Hero section"
-                width={450}
-                height={350}
+                width={500}
+                height={500}
                 className="rounded-xl shadow-lg"
                 priority
             />

@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero/Hero';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <div className="relative z-10">
                 <Navbar />
                 <Hero />
+                <Projects />
                 <Footer />
             </div>
         </div>
