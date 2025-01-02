@@ -20,3 +20,40 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Typing animation */
+.typing-effect {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid transparent; /* Border helps match the cursor */
+  animation: typing 0.75s steps(20, end), blink 0.75s step-end infinite;
+}
+
+/* Typing effect animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%; /* The length of your text */
+  }
+}
+
+/* Blinking cursor animation */
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 1em;
+  color: currentColor;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white; /* Cursor color */
+  }
+}
