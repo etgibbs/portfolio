@@ -4,7 +4,7 @@ import Profile from './Profile';
 
 export default function Hero() {
     return (
-        <section className="w-full max-w-5xl flex flex-col items-center sm:flex-row mb-16 gap-8 mx-auto">
+        <section className="w-full max-w-5xl flex flex-col sm:flex-row mb-10 mt-10 mx-auto">
             <Banner />
             <Profile />
         </section>
