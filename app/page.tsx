@@ -16,14 +16,12 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10">
-
           {/* NAVBAR */}
           <nav className="sticky top-0 w-screen flex justify-between items-center py-6 px-4 mb-6 bg-black bg-opacity-85 z-10">
             {/* Left Side: Logo */}
             <Link href={"#home"}>
               <h1 className="text-xl font-bold text-white font-funnel">Ethan Gibbs</h1>
             </Link>
-
             {/* Right Side: Icons */}
             <div className="flex space-x-4 font-funnel">
               <Link
@@ -31,22 +29,21 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-300 transition"
-              >
-                <FaLinkedin className="text-2xl"/>
+              ><FaLinkedin className="text-2xl"/>
               </Link>
               <Link
                   href="https://github.com/etgibbs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-300 transition"
-              >
-                <FaGithub className="text-2xl"/>
+              ><FaGithub className="text-2xl"/>
               </Link>
             </div>
           </nav>
 
           {/* HERO SECTION */}
           <section className="w-full max-w-5xl flex flex-col items-center sm:flex-row mb-16 gap-8 mx-auto">
+
             {/* Left Side: Intro Text */}
             <div className="flex-1 flex flex-col justify-center px-6">
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
@@ -56,26 +53,24 @@ export default function Home() {
                 I’m a software engineer who enjoys building complex systems.
                 This is my portfolio—check out some of my work below.
               </p>
-              <p className="inline-flex items-center justify-center space-x-8 mt-2 rounded-full border border-transparent bg-white text-blue-950 py-2 text-sm font-bold hover:border-gray-800">
+              <p className="inline-flex items-center justify-center space-x-8 mt-2 rounded-full border
+              border-transparent bg-white text-blue-950 py-2 text-sm font-bold hover:border-gray-800">
                   <Link
                       href="mailto:emg2194@gmail.com"
                       className="flex items-center text-blue-600 hover:underline text-sm sm:text-base"
-                  >
-                    <FiMail className="mr-2 text-lg"/> Email
+                  ><FiMail className="mr-2 text-lg"/> Email
                   </Link>
                   <Link
                       href="https://www.linkedin.com/in/etgibbs/"
                       target="_blank"
                       className="flex items-center text-blue-600 hover:underline text-sm sm:text-base"
-                  >
-                    <FaLinkedin className="mr-2 text-lg"/> LinkedIn
+                  ><FaLinkedin className="mr-2 text-lg"/> LinkedIn
                   </Link>
                   <Link
                       href="https://github.com/etgibbs"
                       target="_blank"
                       className="flex items-center text-blue-600 hover:underline text-sm sm:text-base"
-                  >
-                    <FaGithub className="mr-2 text-lg"/> GitHub
+                  ><FaGithub className="mr-2 text-lg"/> GitHub
                   </Link>
               </p>
             </div>
@@ -90,6 +85,7 @@ export default function Home() {
                   className="rounded-xl shadow-lg"
                   priority
               />
+
               {/* Education Banner */}
               <div className="bg-blue-950 mt-4 py-4 px-4 w-full flex items-center gap-4 rounded bg-opacity-85">
                 <Image
@@ -103,9 +99,7 @@ export default function Home() {
                   <h3 className="text-lg sm:text-xl font-bold font-funnel text-white">
                     University of Michigan
                   </h3>
-                  <span className="text-sm sm:text-base text-gray-300 font-funnel">
-                  B.S. Computer Science
-                </span>
+                  <span className="text-sm sm:text-base text-gray-300 font-funnel"> B.S. Computer Science </span>
                 </div>
               </div>
             </div>
