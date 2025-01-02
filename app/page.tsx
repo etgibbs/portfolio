@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 
 export default function Home() {
     return (
-        <div id="home" className="relative min-h-screen bg-gradient-to-t from-neutral-900/85 to-black bg-cover bg-center">
+        <div id="home" className="relative min-h-screen bg-gradient-to-br from-neutral-900/85 to-black bg-cover bg-center">
             {/* Background Image with Opacity */}
 
             {/* Content */}
