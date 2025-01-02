@@ -14,8 +14,6 @@ export default {
         navbar: "var(--navbar)",
       },
       fontFamily: {
-        sriracha: ['Sriracha', 'serif'],
-        geo: ['Geo', 'serif'],
         funnel: ['Funnel Sans', 'serif'],
       },
     },
