@@ -30,7 +30,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid transparent; /* Border helps match the cursor */
-  animation: typing 0.75s steps(20, end), blink 0.75s step-end infinite;
+  animation: typing 1s steps(20, end), blink 0.75s step-end infinite;
 }
 
 /* Typing effect animation */
@@ -39,7 +39,7 @@ body {
     width: 0;
   }
   to {
-    width: 50%; /* The length of your text */
+    width: 60%; /* The length of your text */
   }
 }
 
