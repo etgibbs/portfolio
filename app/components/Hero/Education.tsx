@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Education() {
     return (
-        <div className="bg-blue-950 mt-4 py-4 px-4 w-full flex items-center gap-4 rounded bg-opacity-85">
+        <div className="bg-blue-950 mt-6 py-3.5 px-4 w-full flex items-center gap-4 rounded bg-opacity-85">
             <Image
                 src="/college-logo.png"
                 alt="UM Logo"
